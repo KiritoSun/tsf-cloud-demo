@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework.cloud:spring-cloud-starter-consul-config:1.10.0.TSF-RELEASE">
+    <CLASSES>
+      <root url="jar://C:/Maven/LocalWareHouse/org/springframework/cloud/spring-cloud-starter-consul-config/1.10.0.TSF-RELEASE/spring-cloud-starter-consul-config-1.10.0.TSF-RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://C:/Maven/LocalWareHouse/org/springframework/cloud/spring-cloud-starter-consul-config/1.10.0.TSF-RELEASE/spring-cloud-starter-consul-config-1.10.0.TSF-RELEASE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://C:/Maven/LocalWareHouse/org/springframework/cloud/spring-cloud-starter-consul-config/1.10.0.TSF-RELEASE/spring-cloud-starter-consul-config-1.10.0.TSF-RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
