@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: tsf-cloud-demo-consumer
+tsf:
+  auth:
+    enable: true

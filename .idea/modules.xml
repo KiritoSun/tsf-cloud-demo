@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/tsf-cloud-demo.iml" filepath="$PROJECT_DIR$/tsf-cloud-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/tsf-cloud-demo-common/tsf-cloud-demo-common.iml" filepath="$PROJECT_DIR$/tsf-cloud-demo-common/tsf-cloud-demo-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tsf-cloud-demo-consumer/tsf-cloud-demo-consumer.iml" filepath="$PROJECT_DIR$/tsf-cloud-demo-consumer/tsf-cloud-demo-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/tsf-cloud-demo-provider/tsf-cloud-demo-provider.iml" filepath="$PROJECT_DIR$/tsf-cloud-demo-provider/tsf-cloud-demo-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/tsf-cloud-demo-provider-api/tsf-cloud-demo-provider-api.iml" filepath="$PROJECT_DIR$/tsf-cloud-demo-provider-api/tsf-cloud-demo-provider-api.iml" />
     </modules>

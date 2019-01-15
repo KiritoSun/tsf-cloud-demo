@@ -1,0 +1,7 @@
+tsf:
+  swagger:
+    enabled: false
+    
+spring:
+  profiles:
+    active: dev
