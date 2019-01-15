@@ -2,15 +2,19 @@ package com.zt.service.Impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.zt.constant.RedisConstant;
+import com.zt.entity.EntityHandle;
 import com.zt.entity.User;
+import com.zt.enums.HandleCode;
 import com.zt.exception.BizException;
 import com.zt.mapper.UserMapper;
-import com.zt.rabbit.RabbitSender;
+import com.zt.rabbitmq.RabbitSender;
 import com.zt.request.RegisterRequest;
 import com.zt.response.ValueResponse;
 import com.zt.result.Result;
 import com.zt.result.ResultGenerator;
 import com.zt.service.UserService;
+import com.zt.util.JSONUtil;
 import com.zt.util.RedisUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -31,8 +35,8 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
 
     @Override
     public Result<ValueResponse> findByName(String name) throws BizException {
-        if (redisUtil.get("user_name_" + name) != null) {
-            User user = (User) redisUtil.get("user_name_" + name);
+        if (redisUtil.get(RedisConstant.REDIS_USER_STRING + name) != null) {
+            User user = (User) redisUtil.get(RedisConstant.REDIS_USER_STRING + name);
             ValueResponse valueResponse = new ValueResponse(user);
             return ResultGenerator.success(valueResponse);
         } else {
@@ -45,7 +49,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
             if (user == null) {
                 return ResultGenerator.failure(1001, "用户不存在", null);
             } else {
-                redisUtil.set("user_name_" + name, user);
+                redisUtil.set(RedisConstant.REDIS_USER_STRING + name, user);
 
                 ValueResponse valueResponse = new ValueResponse(user);
                 return ResultGenerator.success(valueResponse);
@@ -63,9 +67,16 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
             return ResultGenerator.failure(1003, "该记录已存在", null);
         }
 
-        rabbitSender.sendUser(user);
+
+        EntityHandle entityHandle = new EntityHandle();
+        entityHandle.setEntity(JSONUtil.beanToString(user));
+        entityHandle.setHandleCode(HandleCode.SAVE);
+
+        rabbitSender.sendUser(entityHandle);
+
         ValueResponse valueResponse = new ValueResponse(user);
         return ResultGenerator.success(valueResponse);
+
     }
 
 

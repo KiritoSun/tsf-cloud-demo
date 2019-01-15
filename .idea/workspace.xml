@@ -2,23 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="297c014f-962e-4d7b-81e6-0dacf8d9fa01" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tsf-cloud-demo-common/src/main/java/com/zt/enums/CONSTANT.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/java/com/zt/rabbit/RabbitConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/java/com/zt/rabbit/RabbitReceiver.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/java/com/zt/rabbit/RabbitSender.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tsf-cloud-demo-common/src/main/java/com/zt/constant/QueueConstant.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tsf-cloud-demo-common/src/main/java/com/zt/constant/RedisConstant.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tsf-cloud-demo-common/src/main/java/com/zt/entity/EntityHandle.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tsf-cloud-demo-common/src/main/java/com/zt/enums/HandleCode.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tsf-cloud-demo-common/src/main/java/com/zt/util/JSONUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/java/com/zt/rabbitmq/RabbitReceiver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/resources/mapper/UserMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tsf-cloud-demo-provider/src/test/java/com/zt/test/JsonTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/tsf-cloud-demo-common/src/main/java/com/zt/response/PageResponse.java" afterPath="$PROJECT_DIR$/tsf-cloud-demo-common/src/main/java/com/zt/response/PageResponse.java" />
-      <change beforePath="$PROJECT_DIR$/tsf-cloud-demo-common/src/main/java/com/zt/response/ValueResponse.java" afterPath="$PROJECT_DIR$/tsf-cloud-demo-common/src/main/java/com/zt/response/ValueResponse.java" />
-      <change beforePath="$PROJECT_DIR$/tsf-cloud-demo-provider-api/src/main/java/com/zt/service/UserService.java" afterPath="$PROJECT_DIR$/tsf-cloud-demo-provider-api/src/main/java/com/zt/service/UserService.java" />
-      <change beforePath="$PROJECT_DIR$/tsf-cloud-demo-provider-api/target/classes/com/zt/service/UserService.class" afterPath="$PROJECT_DIR$/tsf-cloud-demo-provider-api/target/classes/com/zt/service/UserService.class" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/tsf-cloud-demo-common/src/main/java/com/zt/enums/CONSTANT.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tsf-cloud-demo-common/target/classes/com/zt/enums/CONSTANT.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tsf-cloud-demo-common/tsf-cloud-demo-common.iml" afterPath="$PROJECT_DIR$/tsf-cloud-demo-common/tsf-cloud-demo-common.iml" />
+      <change beforePath="$PROJECT_DIR$/tsf-cloud-demo-provider-api/tsf-cloud-demo-provider-api.iml" afterPath="$PROJECT_DIR$/tsf-cloud-demo-provider-api/tsf-cloud-demo-provider-api.iml" />
+      <change beforePath="$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/java/com/zt/rabbit/RabbitConfig.java" afterPath="$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/java/com/zt/rabbitmq/RabbitConfig.java" />
+      <change beforePath="$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/java/com/zt/rabbit/RabbitReceiver.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/java/com/zt/rabbit/RabbitSender.java" afterPath="$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/java/com/zt/rabbitmq/RabbitSender.java" />
       <change beforePath="$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/java/com/zt/service/Impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/java/com/zt/service/Impl/UserServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/resources/application-dev.yml" afterPath="$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/resources/application-dev.yml" />
-      <change beforePath="$PROJECT_DIR$/tsf-cloud-demo-provider/target/classes/application-dev.yml" afterPath="$PROJECT_DIR$/tsf-cloud-demo-provider/target/classes/application-dev.yml" />
+      <change beforePath="$PROJECT_DIR$/tsf-cloud-demo-provider/target/classes/com/zt/rabbit/RabbitConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tsf-cloud-demo-provider/target/classes/com/zt/rabbit/RabbitReceiver.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tsf-cloud-demo-provider/target/classes/com/zt/rabbit/RabbitSender.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/tsf-cloud-demo-provider/target/classes/com/zt/service/Impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/tsf-cloud-demo-provider/target/classes/com/zt/service/Impl/UserServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/tsf-cloud-demo-provider/tsf-cloud-demo-provider.iml" afterPath="$PROJECT_DIR$/tsf-cloud-demo-provider/tsf-cloud-demo-provider.iml" />
+      <change beforePath="$PROJECT_DIR$/tsf-cloud-demo.iml" afterPath="$PROJECT_DIR$/tsf-cloud-demo.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,73 +42,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/java/com/zt/service/Impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+            <state relative-caret-position="297">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CONSTANT.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tsf-cloud-demo-common/src/main/java/com/zt/enums/CONSTANT.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tsf-cloud-demo-provider-api/src/main/java/com/zt/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
-              <caret line="29" column="88" lean-forward="false" selection-start-line="29" selection-start-column="88" selection-end-line="29" selection-end-column="88" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RabbitReceiver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/java/com/zt/rabbit/RabbitReceiver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RabbitConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/java/com/zt/rabbit/RabbitConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-              <folding>
-                <element signature="e#353#354#0" expanded="true" />
-                <element signature="e#413#414#0" expanded="true" />
-                <element signature="e#455#456#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RabbitSender.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/java/com/zt/rabbit/RabbitSender.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -127,8 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tsf-cloud-demo-provider-api/src/main/java/com/zt/service/IUserService.java" />
-        <option value="$PROJECT_DIR$/tsf-cloud-demo-provider/pom.xml" />
         <option value="$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/java/com.zt/service/Impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/tsf-cloud-demo-provider-api/src/main/java/com/zt/entity/User.java" />
@@ -165,12 +109,21 @@
         <option value="$PROJECT_DIR$/tsf-cloud-demo-common/src/main/java/com/zt/config/RabbitConfig.java" />
         <option value="$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/java/com/zt/util/RabbitUtil.java" />
         <option value="$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/java/com/zt/listen/QueueListen.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/tsf-cloud-demo-common/src/main/java/com/zt/enums/CONSTANT.java" />
         <option value="$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/java/com/zt/rabbit/RabbitConfig.java" />
+        <option value="$PROJECT_DIR$/tsf-cloud-demo-common/src/main/java/com/zt/constant/RedisConstant.java" />
+        <option value="$PROJECT_DIR$/tsf-cloud-demo-common/src/main/java/com/zt/enums/HandleCode.java" />
         <option value="$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/java/com/zt/rabbit/RabbitSender.java" />
         <option value="$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/java/com/zt/rabbit/RabbitReceiver.java" />
+        <option value="$PROJECT_DIR$/tsf-cloud-demo-common/src/main/java/com/zt/util/JSONUtil.java" />
+        <option value="$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/java/com/zt/rabbitmq/RabbitConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/tsf-cloud-demo-provider/src/test/java/com/zt/test/JsonTest.java" />
+        <option value="$PROJECT_DIR$/tsf-cloud-demo-common/src/main/java/com/zt/constant/QueueConstant.java" />
+        <option value="$PROJECT_DIR$/tsf-cloud-demo-common/src/main/java/com/zt/entity/EntityHandle.java" />
+        <option value="$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/java/com/zt/rabbitmq/RabbitSender.java" />
+        <option value="$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/java/com/zt/rabbitmq/RabbitReceiver.java" />
         <option value="$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/java/com/zt/service/Impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/tsf-cloud-demo-common/src/main/java/com/zt/enums/CONSTANT.java" />
       </list>
     </option>
   </component>
@@ -228,163 +181,6 @@
               <item name="tsf-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="tsf-cloud-demo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="tsf-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsf-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="tsf-cloud-demo-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsf-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsf-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="tsf-cloud-demo-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsf-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsf-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="tsf-cloud-demo-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsf-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsf-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="tsf-cloud-demo-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsf-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsf-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="tsf-cloud-demo-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsf-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsf-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="tsf-cloud-demo-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zt" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsf-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsf-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="tsf-cloud-demo-provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsf-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsf-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="tsf-cloud-demo-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsf-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsf-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="tsf-cloud-demo-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsf-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsf-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="tsf-cloud-demo-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsf-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsf-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="tsf-cloud-demo-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsf-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsf-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="tsf-cloud-demo-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zt" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsf-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsf-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="tsf-cloud-demo-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsf-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsf-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="tsf-cloud-demo-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsf-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsf-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="tsf-cloud-demo-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsf-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsf-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="tsf-cloud-demo-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsf-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsf-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="tsf-cloud-demo-provider-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsf-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsf-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="tsf-cloud-demo-provider-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsf-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsf-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="tsf-cloud-demo-provider-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsf-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsf-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="tsf-cloud-demo-provider-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tsf-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tsf-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="tsf-cloud-demo-provider-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zt" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -415,11 +211,11 @@
       <recent name="com.zt.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zt\IdeaProjects\tsf-cloud-demo\tsf-cloud-demo-provider\src\main\resources\mapper" />
       <recent name="C:\Users\zt\IdeaProjects\tsf-cloud-demo\tsf-cloud-demo-common\src\main\java\com\zt\util" />
       <recent name="C:\Users\zt\IdeaProjects\tsf-cloud-demo\tsf-cloud-demo-common\src\main\java\com\zt\config" />
       <recent name="C:\Users\zt\IdeaProjects\tsf-cloud-demo\tsf-cloud-demo-common\src\main\java\com\zt" />
       <recent name="C:\Users\zt\IdeaProjects\tsf-cloud-demo\tsf-cloud-demo-common\src\main\java\com\zt\common\exception" />
-      <recent name="C:\Users\zt\IdeaProjects\tsf-cloud-demo\tsf-cloud-demo-common\src\main\java\com\zt\common\enums" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -454,6 +250,31 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+    </configuration>
+    <configuration name="JsonTest.fun1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.zt.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="tsf-cloud-demo-provider" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.zt.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zt.test.JsonTest" />
+      <option name="METHOD_NAME" value="fun1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration name="ServiceTest.saveUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -548,13 +369,15 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.tsf-cloud-demo-provider" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.ServiceTest.saveUser" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.JsonTest.fun1" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ServiceTest.saveUser" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.JsonTest.fun1" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ServiceTest.saveUser" />
       </list>
     </recent_temporary>
   </component>
@@ -572,32 +395,50 @@
       <option name="presentableId" value="Default" />
       <updated>1547455494237</updated>
       <workItem from="1547455497344" duration="8227000" />
-      <workItem from="1547516414797" duration="7515000" />
+      <workItem from="1547516414797" duration="16084000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ServiceTest_saveUser - 2019.01.14 at 17h 07m 54s.xml">
-      <configuration name="ServiceTest.saveUser" configurationId="JUnit" />
+    <history-entry file="JsonTest_fun1 - 2019.01.15 at 14h 26m 48s.xml">
+      <configuration name="JsonTest.fun1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ServiceTest_saveUser - 2019.01.14 at 17h 08m 50s.xml">
-      <configuration name="ServiceTest.saveUser" configurationId="JUnit" />
+    <history-entry file="JsonTest_fun1 - 2019.01.15 at 14h 30m 38s.xml">
+      <configuration name="JsonTest.fun1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ServiceTest_saveUser - 2019.01.14 at 17h 10m 44s.xml">
-      <configuration name="ServiceTest.saveUser" configurationId="JUnit" />
+    <history-entry file="JsonTest_fun1 - 2019.01.15 at 14h 50m 02s.xml">
+      <configuration name="JsonTest.fun1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ServiceTest_saveUser - 2019.01.14 at 17h 12m 25s.xml">
-      <configuration name="ServiceTest.saveUser" configurationId="JUnit" />
+    <history-entry file="JsonTest_fun1 - 2019.01.15 at 14h 55m 50s.xml">
+      <configuration name="JsonTest.fun1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsonTest_fun1 - 2019.01.15 at 14h 57m 12s.xml">
+      <configuration name="JsonTest.fun1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsonTest_fun1 - 2019.01.15 at 15h 00m 55s.xml">
+      <configuration name="JsonTest.fun1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsonTest_fun1 - 2019.01.15 at 15h 10m 50s.xml">
+      <configuration name="JsonTest.fun1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsonTest_fun1 - 2019.01.15 at 15h 12m 34s.xml">
+      <configuration name="JsonTest.fun1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsonTest_fun1 - 2019.01.15 at 15h 20m 00s.xml">
+      <configuration name="JsonTest.fun1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsonTest_fun1 - 2019.01.15 at 15h 40m 58s.xml">
+      <configuration name="JsonTest.fun1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15742000" />
+    <option name="totallyTimeSpent" value="24311000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -607,7 +448,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -781,6 +622,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -833,14 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tsf-cloud-demo-common/src/main/java/com/zt/enums/ResultCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-810">
-          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tsf-cloud-demo-queue-consumer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -889,14 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="52" lean-forward="true" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/java/com/zt/util/RabbitUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -929,38 +755,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/java/com/zt/rabbit/RabbitSender.java">
+    <entry file="file://$PROJECT_DIR$/tsf-cloud-demo-common/src/main/java/com/zt/enums/CONSTANT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/java/com/zt/rabbit/RabbitConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding>
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/java/com/zt/rabbit/RabbitReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="8" column="76" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="8" selection-end-column="76" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -972,18 +771,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/java/com/zt/service/Impl/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/tsf-cloud-demo-common/src/main/java/com/zt/constant/RedisConstant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        <state relative-caret-position="189">
+          <caret line="7" column="64" lean-forward="false" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tsf-cloud-demo-common/src/main/java/com/zt/enums/CONSTANT.java">
+    <entry file="file://$PROJECT_DIR$/tsf-cloud-demo-common/src/main/java/com/zt/enums/ResultCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="83" column="43" lean-forward="true" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsf-cloud-demo-common/src/main/java/com/zt/enums/HandleCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsf-cloud-demo-provider/src/test/java/com/zt/test/JsonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1318">
+          <caret line="105" column="42" lean-forward="true" selection-start-line="105" selection-start-column="42" selection-end-line="105" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsf-cloud-demo-common/src/main/java/com/zt/util/JSONUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="22" column="63" lean-forward="false" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsf-cloud-demo-common/src/main/java/com/zt/entity/EntityHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsf-cloud-demo-common/src/main/java/com/zt/constant/QueueConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/java/com/zt/rabbitmq/RabbitReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/java/com/zt/rabbitmq/RabbitConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/java/com/zt/rabbitmq/RabbitSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsf-cloud-demo-provider/src/main/java/com/zt/service/Impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -1,6 +1,6 @@
-package com.zt.rabbit;
+package com.zt.rabbitmq;
 
-import com.zt.enums.CONSTANT;
+import com.zt.constant.QueueConstant;
 import org.springframework.amqp.core.Queue;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -13,14 +13,12 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class RabbitConfig {
 
-    @Bean
-    public Queue stringQueue() {
-        return new Queue(CONSTANT.STRING_QUEUE_NAME);
-    }
-
+    /**
+     *传递user对象的队列
+     */
     @Bean
     public Queue userQueue() {
-        return new Queue(CONSTANT.USER_QUEUE_NAME);
+        return new Queue(QueueConstant.USER_QUEUE_NAME);
     }
 
 }
