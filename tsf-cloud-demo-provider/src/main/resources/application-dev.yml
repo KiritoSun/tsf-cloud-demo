@@ -5,7 +5,8 @@ server:
         min-spare-threads: 30
     port: 8081
     connection-timeout: 3000
-    
+
+# 日志输出配置
 logging:
   file: /logs/${spring.application.name}/root.log
   pattern:
@@ -17,6 +18,13 @@ logging:
     root: INFO
     
 spring:
+  # 消息队列配置部分
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: ztef
+    password: abc123
+  # 数据库数据源配置
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
@@ -63,7 +71,8 @@ spring:
         login-username: admin
         # 登录密码
         login-password: 123456
-        
+
+  # redis配置
   redis:
     host: 127.0.0.1
     port: 6379

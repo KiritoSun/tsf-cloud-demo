@@ -4,6 +4,7 @@ import com.zt.entity.User;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.zt.exception.BizException;
 import com.zt.request.RegisterRequest;
+import com.zt.response.ValueResponse;
 import com.zt.result.Result;
 
 /**
@@ -18,7 +19,7 @@ public interface UserService extends IService<User> {
      * @return Result<User>
      * @throws BizException 异常
      */
-    Result<User> findByName(String name) throws BizException;
+    Result<ValueResponse> findByName(String name) throws BizException;
 
     /**
      * 注册业务
@@ -26,5 +27,5 @@ public interface UserService extends IService<User> {
      * @return Result<User>
      * @throws BizException 异常
      */
-    Result<User> register(RegisterRequest registerRequest) throws BizException;
+    Result<ValueResponse> register(RegisterRequest registerRequest) throws BizException;
 }
