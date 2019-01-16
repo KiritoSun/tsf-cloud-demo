@@ -12,6 +12,7 @@
         <module>tsf-cloud-demo-provider</module>
         <module>tsf-cloud-demo-common</module>
         <module>tsf-cloud-demo-consumer</module>
+        <module>tsf-cloud-demo-gateway</module>
     </modules>
 
     <packaging>pom</packaging>

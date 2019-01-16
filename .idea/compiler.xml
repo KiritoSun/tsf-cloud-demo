@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="tsf-cloud-demo-common" />
         <module name="tsf-cloud-demo-consumer" />
+        <module name="tsf-cloud-demo-gateway" />
         <module name="tsf-cloud-demo-provider" />
         <module name="tsf-cloud-demo-provider-api" />
       </profile>
@@ -16,6 +17,7 @@
       <module name="tsf-cloud-demo" target="1.8" />
       <module name="tsf-cloud-demo-common" target="1.8" />
       <module name="tsf-cloud-demo-consumer" target="1.8" />
+      <module name="tsf-cloud-demo-gateway" target="1.8" />
       <module name="tsf-cloud-demo-provider" target="1.8" />
       <module name="tsf-cloud-demo-provider-api" target="1.8" />
       <module name="tsf-cloud-demo-queue-consumer" target="1.8" />

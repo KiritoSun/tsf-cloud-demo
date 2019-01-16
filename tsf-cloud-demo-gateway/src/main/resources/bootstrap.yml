@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: tsf-cloud-demo-gateway
+  cloud:
+    consul:
+      discovery:
+        instance-id: ${spring.application.name}:${server.port}
+        prefer-ip-address: true
+        health-check-interval: 10s
+        hostname: ${spring.application.name}
+        service-name: ${spring.application.name}
+        enabled: true
+        health-check-path: /health
+      host: 47.107.34.228
+      port: 8500
+
+zuul:
+    routes:
+        tsf-cloud-demo-consumer: /consumer/**
+
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
