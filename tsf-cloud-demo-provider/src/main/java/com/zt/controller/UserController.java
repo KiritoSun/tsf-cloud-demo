@@ -1,5 +1,7 @@
 package com.zt.controller;
 
+import com.zt.annotation.NoToken;
+import com.zt.annotation.Token;
 import com.zt.request.RegisterRequest;
 import com.zt.result.Result;
 import com.zt.service.UserService;
@@ -8,6 +10,11 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 
+/**
+ * 用户操作controller层
+ * @author zt.赵童
+ * @since 2019-01-14
+ */
 @RestController
 @RequestMapping(value = "user")
 public class UserController {

@@ -10,6 +10,7 @@ import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
 
 /**
+ * 实体类user
  * @author zt.赵童
  * @since 2019-01-14
  */

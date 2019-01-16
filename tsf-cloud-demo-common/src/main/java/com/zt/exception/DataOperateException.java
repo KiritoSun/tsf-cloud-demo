@@ -4,15 +4,12 @@ package com.zt.exception;
 import com.zt.enums.ResultCode;
 
 /**
- * 
+ * 自定义数据库异常类
+ * @author zt.赵童
+ * @since 2019-01-16
  */
-public class DataOperateException extends BizException {
-	
+public class DataOperateException extends MyException {
 
-
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 
 	public DataOperateException(ResultCode retCode) {
@@ -23,7 +20,4 @@ public class DataOperateException extends BizException {
 		super(message, retCode);
 	}
 
-	public DataOperateException(String message, Throwable cause, ResultCode retCode) {
-		super(message, cause, retCode);
-	}
 }

@@ -6,7 +6,7 @@ import com.zt.constant.RedisConstant;
 import com.zt.entity.EntityHandle;
 import com.zt.entity.User;
 import com.zt.enums.HandleCode;
-import com.zt.exception.BizException;
+import com.zt.exception.MyException;
 import com.zt.mapper.UserMapper;
 import com.zt.rabbitmq.RabbitSender;
 import com.zt.request.RegisterRequest;
@@ -22,8 +22,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+/**
+ * UserService业务实习类
+ * @author zt.赵童
+ * @since 2019-01-14
+ */
 @Service
-@Transactional(rollbackFor = BizException.class)
+@Transactional(rollbackFor = MyException.class)
 public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements UserService {
 
     private final Logger logger = LoggerFactory.getLogger(getClass());
@@ -34,7 +39,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
     private RabbitSender rabbitSender;
 
     @Override
-    public Result<ValueResponse> findByName(String name) throws BizException {
+    public Result<ValueResponse> findByName(String name) throws MyException {
         if (redisUtil.get(RedisConstant.REDIS_USER_STRING + name) != null) {
             User user = (User) redisUtil.get(RedisConstant.REDIS_USER_STRING + name);
             ValueResponse valueResponse = new ValueResponse(user);
@@ -58,7 +63,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
     }
 
     @Override
-    public Result<ValueResponse> register(RegisterRequest registerRequest) throws BizException {
+    public Result<ValueResponse> register(RegisterRequest registerRequest) throws MyException {
         User user = registerRequest.toUser();
 
         QueryWrapper<User> queryWrapper = new QueryWrapper<>();

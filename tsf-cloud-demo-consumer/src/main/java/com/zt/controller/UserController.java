@@ -1,9 +1,10 @@
 package com.zt.controller;
 
+import com.zt.annotation.NoToken;
+import com.zt.annotation.Token;
 import com.zt.remote.UserRemoteService;
 import com.zt.request.RegisterRequest;
 import com.zt.result.Result;
-import com.zt.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -19,6 +20,7 @@ public class UserController {
      * @param name 姓名
      * @return json数据
      */
+    @Token
     @RequestMapping(value = "/user/findByName", method = RequestMethod.GET)
     public Result findByName(@RequestParam(value = "name") String name) {
         return userRemoteService.findByName(name);
@@ -29,6 +31,7 @@ public class UserController {
      * @param registerRequest 注册请求
      * @return json数据
      */
+    @NoToken
     @RequestMapping(value = "/user/register", method = RequestMethod.POST)
     public Result register(@RequestBody @Valid RegisterRequest registerRequest) {
         return userRemoteService.register(registerRequest);

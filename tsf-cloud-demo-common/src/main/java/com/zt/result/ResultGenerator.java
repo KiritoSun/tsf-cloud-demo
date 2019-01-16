@@ -6,6 +6,7 @@ package com.zt.result;
 import com.zt.enums.ResultCode;
 
 /**
+ * Result构造器
  * @author zt.赵童
  * @since 2019-01-14
  */

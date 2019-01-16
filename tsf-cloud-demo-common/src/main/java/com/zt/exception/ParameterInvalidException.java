@@ -4,25 +4,16 @@ package com.zt.exception;
 import com.zt.enums.ResultCode;
 
 /**
- * 
+ * 自定义参数异常类
+ * @author zt.赵童
+ * @since 2019-01-16
  */
-public class ParameterInvalidException extends BizException {
-	
-	/**
-	 * 
-	 */
+public class ParameterInvalidException extends MyException {
+
 	private static final long serialVersionUID = 1L;
 
 	public ParameterInvalidException(String message) {
 		super(message, ResultCode.PARAM_IS_INVALID);
-	}
-
-	public ParameterInvalidException(String message, Throwable cause) {
-		super(message, cause, ResultCode.PARAM_IS_INVALID);
-	}
-
-	public ParameterInvalidException(Throwable cause) {
-		super(cause);
 	}
 
 	public ParameterInvalidException(ResultCode retCode) {
@@ -33,7 +24,4 @@ public class ParameterInvalidException extends BizException {
 		super(message, retCode);
 	}
 
-	public ParameterInvalidException(String message, Throwable cause, ResultCode retCode) {
-		super(message, cause, retCode);
-	}
 }

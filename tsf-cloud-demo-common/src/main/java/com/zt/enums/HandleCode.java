@@ -1,5 +1,10 @@
 package com.zt.enums;
 
+/**
+ * 自定义操作
+ * @author zt.赵童
+ * @since 2019-01-16
+ */
 public enum HandleCode {
     /**
      * 存储操作
@@ -13,10 +18,6 @@ public enum HandleCode {
      * 修改操作
      */
     UPDATE,
-    /**
-     * 查询操作
-     */
-    GET,
     /**
      * 不进行任何操作
      */

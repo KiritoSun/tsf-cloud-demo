@@ -13,6 +13,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.validation.Valid;
 
+/**
+ *
+ */
 @FeignClient(name = "tsf-cloud-demo-provider", fallback = UserRemoteService.DefaultFallback.class)
 public interface UserRemoteService {
 

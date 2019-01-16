@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.zt.config;
 
 import org.springframework.context.annotation.Bean;
@@ -14,16 +11,16 @@ import com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor;
 import com.baomidou.mybatisplus.extension.plugins.PerformanceInterceptor;
 
 /**
- * @author zack.zeng
- * 
  *  MyBatisPlus 配置
- *
+ * @author zt.赵童
+ * @since 2019-01-16
  */
 @Configuration
 public class MyBatisPlusConfig {
 
 	/**
 	 * 分页插件
+	 * @return PaginationInterceptor
 	 */
 	@Bean
 	public PaginationInterceptor paginationInterceptor() {
@@ -32,8 +29,7 @@ public class MyBatisPlusConfig {
 
 	/**
 	 * sql注入器 逻辑删除插件
-	 * 
-	 * @return
+	 * @return ISqlInjector
 	 */
 	@Bean
 	public ISqlInjector iSqlInjector() {
@@ -42,8 +38,7 @@ public class MyBatisPlusConfig {
 
 	/**
 	 * sql性能分析插件，输出sql语句及所需时间
-	 * 
-	 * @return
+	 * @return PerformanceInterceptor
 	 */
 	@Bean
 	@Profile({ "dev", "test" }) // 设置 dev test 环境开启
@@ -53,8 +48,7 @@ public class MyBatisPlusConfig {
 
 	/**
 	 * 乐观锁插件
-	 * 
-	 * @return
+	 * @return OptimisticLockerInterceptor
 	 */
 	public OptimisticLockerInterceptor optimisticLockerInterceptor() {
 		return new OptimisticLockerInterceptor();

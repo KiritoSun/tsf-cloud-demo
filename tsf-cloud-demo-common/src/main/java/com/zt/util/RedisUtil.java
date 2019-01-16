@@ -14,6 +14,7 @@ import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 /**
+ * redis操作帮助类
  * @author zt.赵童
  * @since 2019-01-14
  */

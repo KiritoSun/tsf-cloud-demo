@@ -1,6 +1,7 @@
 package com.zt.enums;
 
 /**
+ * 自定义错误码
  * @author zt.赵童
  * @since 2019-01-14
  */

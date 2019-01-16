@@ -4,6 +4,11 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ * 封装分页格式
+ * @author zt.赵童
+ * @since 2019-01-16
+ */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

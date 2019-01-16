@@ -1,25 +1,26 @@
 package com.zt.util;
 
+/**
+ * 字符串校验帮助类
+ */
 public class StringUtils {
 
 	/**
-	 * 判断字符串是否为空。
+	 * 判断字符串是否为空
+	 * @param str 字符串
+	 * @return boolean
 	 */
 	public static boolean isEmpty(String str){
-		if(str == null || str.trim().length() == 0){
-			return true;
-		}
-		return false;
+		return str == null || str.trim().length() == 0;
 	}
-	
+
 	/**
-	 * 判断字符串是否不为空。
+	 * 判断字符串是否不为空
+	 * @param str 字符串
+	 * @return boolean
 	 */
 	public static boolean isNotEmpty(String str){
-		if(str != null && str.trim().length() > 0){
-			return true;
-		}
-		return false;
+		return str != null && str.trim().length() > 0;
 	}
 	
 }

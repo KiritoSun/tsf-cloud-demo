@@ -7,6 +7,7 @@ import org.hibernate.validator.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
 /**
+ * 封装注册请求
  * @author zt.赵童
  * @since 2019-01-14
  */

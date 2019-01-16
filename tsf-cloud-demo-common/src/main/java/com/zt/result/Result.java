@@ -5,6 +5,7 @@ import com.zt.enums.ResultCode;
 import java.io.Serializable;
 
 /**
+ * 自定义客户端响应格式
  * @author zt.赵童
  * @since 2019-01-14
  */

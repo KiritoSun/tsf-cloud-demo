@@ -2,6 +2,9 @@ package com.zt.util;
 
 import com.alibaba.fastjson.JSON;
 
+/**
+ * json与java对象转化帮助类
+ */
 public class JSONUtil {
 
     public static <T> String beanToString(T value) {

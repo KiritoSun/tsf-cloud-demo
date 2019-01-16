@@ -12,9 +12,19 @@ import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+/**
+ *  redis 配置
+ * @author zt.赵童
+ * @since 2019-01-16
+ */
 @Configuration
 public class RedisConfig {
-	
+
+    /**
+     * 配置函数
+     * @param factory
+     * @return RedisTemplate<String, Object>
+     */
 	@Bean
 	@SuppressWarnings("all")
     public RedisTemplate<String, Object> redisTemplate(RedisConnectionFactory factory) {
