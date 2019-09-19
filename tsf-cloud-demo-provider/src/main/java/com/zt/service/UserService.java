@@ -1,9 +1,9 @@
 package com.zt.service;
 
-import com.zt.entity.User;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.zt.entity.dto.RegisterDTO;
+import com.zt.entity.User;
 import com.zt.exception.MyException;
-import com.zt.request.RegisterRequest;
 import com.zt.response.ValueResponse;
 import com.zt.result.Result;
 
@@ -24,9 +24,9 @@ public interface UserService extends IService<User> {
 
     /**
      * 注册业务
-     * @param registerRequest 注册请求
+     * @param registerDTO 注册请求
      * @return Result<User>
      * @throws MyException 异常
      */
-    Result<ValueResponse> register(RegisterRequest registerRequest) throws MyException;
+    Result<ValueResponse> register(RegisterDTO registerDTO) throws MyException;
 }

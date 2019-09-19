@@ -1,4 +1,4 @@
-package com.zt.request;
+package com.zt.entity.dto;
 
 import com.zt.entity.User;
 import lombok.Data;
@@ -12,7 +12,7 @@ import javax.validation.constraints.NotNull;
  * @since 2019-01-14
  */
 @Data
-public class RegisterRequest {
+public class RegisterDTO {
     @NotNull(message = "uid不能为空")
     @NotBlank(message = "uid不能为空")
     private String uId;

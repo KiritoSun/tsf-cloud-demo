@@ -2,7 +2,7 @@ package com.zt.controller;
 
 import com.zt.annotation.NoToken;
 import com.zt.annotation.Token;
-import com.zt.request.RegisterRequest;
+import com.zt.entity.dto.RegisterDTO;
 import com.zt.result.Result;
 import com.zt.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,11 +33,11 @@ public class UserController {
 
     /**
      * 注册接口
-     * @param registerRequest 注册请求
+     * @param registerDTO 注册请求
      * @return json数据
      */
     @RequestMapping(value = "/register", method = RequestMethod.POST)
-    public Result register(@RequestBody @Valid RegisterRequest registerRequest) {
-        return userService.register(registerRequest);
+    public Result register(@RequestBody @Valid RegisterDTO registerDTO) {
+        return userService.register(registerDTO);
     }
 }

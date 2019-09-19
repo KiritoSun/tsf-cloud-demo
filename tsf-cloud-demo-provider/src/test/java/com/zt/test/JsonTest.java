@@ -1,12 +1,9 @@
 package com.zt.test;
 
-import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONObject;
 import com.zt.entity.EntityHandle;
 import com.zt.entity.User;
 import com.zt.enums.HandleCode;
 import com.zt.util.JSONUtil;
-import lombok.Data;
 import org.junit.Test;
 
 /**

@@ -1,7 +1,7 @@
 package com.zt.mapper;
 
-import com.zt.entity.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.zt.entity.User;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 
