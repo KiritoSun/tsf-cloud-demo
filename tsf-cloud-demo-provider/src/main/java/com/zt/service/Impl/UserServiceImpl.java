@@ -81,7 +81,6 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
 
         ValueResponse valueResponse = new ValueResponse(user);
         return ResultGenerator.success(valueResponse);
-
     }
 
 

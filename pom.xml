@@ -115,6 +115,12 @@
             <artifactId>java-jwt</artifactId>
             <version>3.4.0</version>
         </dependency>
+        <!-- 谷歌帮助类 -->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>28.1-jre</version>
+        </dependency>
         <!-- 单元测试 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
